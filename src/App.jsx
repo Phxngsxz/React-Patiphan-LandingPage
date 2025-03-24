@@ -9,6 +9,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import InfoOne from './components/InfoOne'
 import InfoTwo from './components/InfoTwo'
+import CTA from './components/CTA'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
       <About />
       <InfoOne />
       <InfoTwo />
+      <CTA />
     </>
   )
 }
